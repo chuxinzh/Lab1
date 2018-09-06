@@ -1,0 +1,60 @@
+html{
+    margin:0px;
+}
+
+body{
+    margin:0px;
+}
+
+.header{
+    height: 60px;
+    line-height: 60px;
+    padding: 20px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    text-align: left;
+    margin: 0;
+}
+
+.navigation{
+    margin: 0px;
+    display: inline-flex;
+    list-style-type: none;
+    
+}
+
+.header a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+.main{
+    display: flex;
+}
+
+.content{
+    width: 70%;
+    background-color: lightgrey;
+    min-height: 500px;
+}
+
+.sidebar{
+    width: 30%;
+    background-color: darkgrey;
+    display: inline-flex;
+    color: white;
+    min-height: 500px;
+}
+
+.content p{
+    margin: 20px;
+}
+
+.sidebar p{
+    margin: 20px;
+}
